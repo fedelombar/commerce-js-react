@@ -1,5 +1,7 @@
 DEMO 💜 https://commercejsreact-federico.netlify.app/ 
 
+Stripe. Test with this card number 4242 4242 4242 4242. Any CVV. Any date.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

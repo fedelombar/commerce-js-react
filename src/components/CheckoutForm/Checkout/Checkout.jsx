@@ -54,12 +54,6 @@ const Checkout = ({ cart, onCaptureCheckout, order, error }) => {
     nextStep();
   };
 
-  const timeout = () => {
-    setTimeout(() => {
-      setIsFinished(true);
-    }, 3000);
-  };
-
   let Confirmation = () =>
     order.customer ? (
       <>
@@ -117,7 +111,6 @@ const Checkout = ({ cart, onCaptureCheckout, order, error }) => {
         backStep={backStep}
         shippingData={shippingData}
         onCaptureCheckout={onCaptureCheckout}
-        timeout={timeout}
       />
     );
 
